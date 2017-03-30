@@ -1,18 +1,13 @@
 package Task::POE::Filter::Compression;
 
+#ABSTRACT: A Task to install all compression related POE Filters.
+
 use strict;
 use warnings;
-use vars qw($VERSION);
 
-$VERSION = '1.02';
+'Cmprss';
 
-1;
-
-__END__
-
-=head1 NAME
-
-Task::POE::Filter::Compression - A Task to install all compression related POE Filters.
+=pod
 
 =head1 SYNOPSIS
 
@@ -33,13 +28,5 @@ This L<Task> module installs all compression related L<POE::Filter> modules, nam
   POE::Filter::LZW 1.64
 
   POE::Filter::Zlib 1.93
-
-=head1 LICENSE
-
-This is free software, released under the same terms as perl itself.
-
-=head1 AUTHOR
-
-Chris C<BinGOs> Williams <chris@bingosnet.co.uk>
 
 =cut
